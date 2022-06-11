@@ -41,6 +41,8 @@ console.log(allowedPets)
 if (adventurous === true)
 {
     console.log('Adventures are great!')
+} else {
+    console.log('How about we stay home')
 }
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
@@ -112,5 +114,6 @@ switch (luckyNumber) {
     break;
   }
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
-
+adventurous ? console.log('Adventures are great!')
+: console.log('How about we stay home');
 
